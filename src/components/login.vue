@@ -1,20 +1,10 @@
 <template>
   <div class="wrap">
-      <div class="header">
-         <p>X</p>
-         <h3>欢迎来到星享俱乐部</h3>
-      </div>
       <div class="main">
           <p><input type="text" placeholder="请输入手机号" v-model="phone_value"></p>
           <p><input type="password" placeholder="请输入密码" v-model="psw_value"></p>
           <button @click="handleClick">登录/注册</button>
-         <p> <a href="#">使用账号密码登录</a></p>
       </div>
-     <div class="footer">
-        <p>使用一下方式进行账户注册/登录</p>
-        <span class="icon iconfont">&#xe504;</span>
-        <span class="icon iconfont">&#xe60a;</span>
-     </div>
   </div>
 </template>
 <script>
