@@ -32,7 +32,7 @@
  </div>
 </template>
 <script>
-import {showType} from '../../util/computeTime'
+import {showType} from '../../utils/computeTime'
 export default {
   props:{
     list:{
